@@ -1,0 +1,59 @@
+import numpy as np
+import os
+import pandas as pd
+import sys
+import inspect
+from datetime import datetime, timedelta
+from os.path import join as oj
+from urllib.request import urlopen
+import json
+import re
+import plotly
+import plotly.express as px
+import plotly.graph_objs as go
+from fit_and_predict import add_preds
+from viz import viz_interactive, viz_map_utils
+from load_data import load_county_level
+
+# Load data and add prediction
+def add_pre(df, var, name, newname):
+    # Implementation
+
+# Add prediction history to dataframe
+def add_prediction_history(df_tab):
+    # Implementation
+
+# Generate HTML for individual counties
+def generate_all_counties():
+    # Implementation
+
+# Rename columns
+def rename(df):
+    # Implementation
+
+# Generate map and table HTML code
+def generate_map(df):
+    # Implementation
+
+# Fill the state full name according to their abbreviations
+def fillstate(df):
+    # Implementation
+
+# Update search.html
+def update_html(maps):
+    # Implementation
+
+# Add cases/deaths rate to dataframe
+def add_rates(df_county):
+    # Implementation
+
+# Add new cases/deaths to dataframe
+def add_new(df_county):
+    # Implementation
+
+# Add new predictions and intervals
+def add_new_pre(df_county, var, name, newname):
+    # Implementation
+
+if __name__ == '__main__':
+    # Implementation
